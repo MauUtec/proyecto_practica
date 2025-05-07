@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<garantia>
+  <tipoDocumento>DUI</tipoDocumento>
+  <numeroDocliente>77667788-9</numeroDocliente>
+  <nombreCliente>JOSE RODRIGUEZ</nombreCliente>
+  <nombreDocumento>DUI-JOSE RODRIGUEZ</nombreDocumento>
+  <numeroCliente>77667788-9-JOSE RODRIGUEZ</numeroCliente>
+  <agencia>CENTRO</agencia>
+  <idAgencia>4</idAgencia>
+  <fechaVigencia>2025-05-07</fechaVigencia>
+  <fechaExpiracion>2026-05-07</fechaExpiracion>
+  <fechaDocumento>2025-05-07</fechaDocumento>
+  <fechaArchivado>2025-05-07</fechaArchivado>
+  <horaArchivado>21:01</horaArchivado>
+  <archivadoPor>mgarcia</archivadoPor>
+  <numeroCrediticio>CR-891104</numeroCrediticio>
+</garantia>

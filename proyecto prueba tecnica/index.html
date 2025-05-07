@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Sistema de Garantías</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            background-image: url('assets/logo.png');
+            background-size: 40%;
+            background-position: 20% center;
+            background-repeat: no-repeat;
+        }
+        .login-container {
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: 10%;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+            border: 1px solid #dc3545;
+        }
+        .logo-text {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #dc3545;
+        }
+        .btn-login {
+            background-color: #dc3545;
+            border: none;
+            font-weight: bold;
+        }
+        .btn-login:hover {
+            background-color: #c82333;
+        }
+        @media (max-width: 992px) {
+            body {
+                background-size: 70%;
+                background-position: center 20%;
+                justify-content: center;
+            }
+            .login-container {
+                margin: 20px;
+                margin-top: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo-text">
+            <h2><i class="fas fa-shield-alt me-2"></i>Sistema de Garantías</h2>
+            <p class="mb-0">Acceso seguro al sistema</p>
+        </div>
+        
+        <form id="loginForm">
+            <div class="mb-3">
+                <label for="username" class="form-label">Usuario</label>
+                <input type="text" class="form-control" id="username" required>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="password" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-100 btn-login">
+                <i class="fas fa-sign-in-alt me-2"></i>Ingresar
+            </button>
+        </form>
+    </div>
+
+    <script src="js/auth.js"></script>
+   
+</body>
+</html>
